@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Bootstrap Badges</title>
+        <title>Bootstrap Progress Bar</title>
 
         <!-- Meta tags -->
         <meta charset = "utf-8">
@@ -10,19 +10,24 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         
+        <style>
+            .container {
+                margin: 30px
+            }
+            .progress-bar {
+                width: 50%;
+                height: 20px;
+            }
+        </style>
      </head>
      <body>
 
         <div class="container">
-            <h2>Badges</h2>
-            <span class="badge ">Primary</span>
-            <span class="badge ">Secondary</span>
-            <span class="badge ">Success</span>
-            <span class="badge ">Danger</span>
-            <span class="badge ">Warning</span>
-            <span class="badge ">Info</span>
-            <span class="badge ">Light</span>
-            <span class="badge ">Dark</span>
+            <p>The height of the progress bar is 1rem (16px) by default.</p> 
+            <div class="progress">
+                <div class="progress-bar"></div>
+            </div>
+            <br>
         </div>
      
      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
